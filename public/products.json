@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "name": "BABY BOTTLES",
+      "tradePrice": 50.00,
+      "retailPrice": 65.00,
+      "quantity": 100
+    },
+    {
+      "id": 2,
+      "name": "SUDOCREM SUNSCREEN MOUSSE KIDS SPF50",
+      "tradePrice": 30.00,
+      "retailPrice": 40.00,
+      "quantity": 150
+    },
+    {
+      "id": 3,
+      "name": "PANADOL ACTI-FAST",
+      "tradePrice": 20.00,
+      "retailPrice": 25.00,
+      "quantity": 75
+    }
+  ]
+  
