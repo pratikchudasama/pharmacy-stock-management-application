@@ -164,7 +164,7 @@ const StockPage = () => {
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
           <div className="bg-white p-4 rounded-lg shadow-md">
             <h3 className="text-lg font-bold text-blue-950">
-              Added to Counted section
+              Added to Stock Take
             </h3>
           </div>
         </div>
