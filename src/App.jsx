@@ -9,7 +9,6 @@ const App = () => {
     localStorage.getItem('isLoggedIn') === 'true'
   );
 
-  // Synchronize state with localStorage when isLoggedIn changes
   useEffect(() => {
     localStorage.setItem('isLoggedIn', isLoggedIn);
   }, [isLoggedIn]);

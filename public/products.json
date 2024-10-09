@@ -2,6 +2,7 @@
     {
       "id": 1,
       "name": "BABY BOTTLES",
+      "department": "BABY",
       "tradePrice": 50.00,
       "retailPrice": 65.00,
       "quantity": 100
@@ -9,6 +10,7 @@
     {
       "id": 2,
       "name": "SUDOCREM SUNSCREEN MOUSSE KIDS SPF50",
+      "department": "TRAVEL CENTRE",
       "tradePrice": 30.00,
       "retailPrice": 40.00,
       "quantity": 150
@@ -16,9 +18,18 @@
     {
       "id": 3,
       "name": "PANADOL ACTI-FAST",
+      "department": "PAIN KILLER",
       "tradePrice": 20.00,
       "retailPrice": 25.00,
       "quantity": 75
+    },
+    {
+      "id": 4,
+      "name": "RENNIE DIGESTION",
+      "department": "DIGESTION",
+      "tradePrice": 10.00,
+      "retailPrice": 15.00,
+      "quantity": 50
     }
   ]
   
