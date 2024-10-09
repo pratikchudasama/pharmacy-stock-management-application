@@ -17,7 +17,7 @@ A simple React-based stock management application for a pharmacy, allowing users
 - React-Router: For managing navigation between different views.
 
 ## To set-up and run the project locally, follow these instructions:
-- Clone the repository: `git clone git clone https://github.com/pratikchudasama/pharmacy-stock-management`
+- Clone the repository: `https://github.com/pratikchudasama/pharmacy-stock-management-application.git`
 - Navigate to the project directory: `cd pharmacy-stock-management`
 - Install the dependencies: `npm install`
 - Start the development server: `npm run dev`
