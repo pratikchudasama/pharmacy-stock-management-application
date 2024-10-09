@@ -34,10 +34,13 @@ const CountedSection = ({ countedProducts, onEditProduct, searchTerm }) => {
           <div key={product.id}>
             <div className="flex justify-between items-center mb-4">
               <div>
-                <h3 className="text-lg font-bold">{product.name}</h3>
-                <p className="text-gray-600">Dept: {product.department}</p>
+                <h3 className="text-lg font-bold mb-1.5">{product.name}</h3>
+                <p className="text-gray-600">Department: {product.department}</p>
                 <p className="text-gray-600">
                   Stock on Hand: {product.quantity}
+                </p>
+                <p className="text-gray-600">
+                  Counted by: DMAN  
                 </p>
               </div>
               <button

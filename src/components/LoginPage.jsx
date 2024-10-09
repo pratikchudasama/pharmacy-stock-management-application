@@ -18,7 +18,6 @@ const LoginPage = ({ setIsLoggedIn }) => {
     setPasswordError("");
     setError("");
 
-    // Basic validation
     if (!/\S+@\S+\.\S+/.test(email)) {
       setEmailError("Please enter a valid email address");
       return;
