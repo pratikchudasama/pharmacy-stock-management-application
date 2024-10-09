@@ -35,14 +35,19 @@ const ProductEditScreen = ({
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4">
       <div className="bg-white p-6 rounded-lg shadow-lg max-w-lg w-full md:max-w-2xl max-h-[80vh] overflow-y-auto">
-        <h2 className="text-2xl font-bold mb-2 text-blue-950">
+        <h2 className="text-2xl text-center font-bold mb-4 text-blue-950">
           {product.name}
         </h2>
-        <p className="text-md text-gray-600 mb-4">Dept: {product.department}</p>
         <div className="space-y-4">
           <div className="flex justify-between items-center">
             <p className="text-gray-700">Barcode:</p>
             <p className="text-gray-900">1234567890</p>
+          </div>
+          <hr className="my-2 border-gray-300" />
+
+          <div className="flex justify-between items-center">
+            <p className="text-gray-700">Department:</p>
+            <p className="text-gray-900">{product.department}</p>
           </div>
           <hr className="my-2 border-gray-300" />
 
